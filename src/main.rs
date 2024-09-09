@@ -61,14 +61,14 @@ impl std::fmt::Display for WechatInfo {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         write!(
             f,
-            r#"=======================================
+            r#"======================================
 ProcessId: {}
 WechatVersion: {}
 AccountName: {}
 PhoneType: {}
 DataDir: {}
 key: {}
-=======================================
+======================================
 "#,
             self.pid,
             self.version,
